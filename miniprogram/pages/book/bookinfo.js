@@ -24,6 +24,20 @@ Page({
             price: bookInfo.price,
             status: bookInfo.status
         }
+        if (bookInfo.writer == null | bookInfo.writer == "") {
+            book_input.writer = "暂无此信息";
+        }
+        if (bookInfo.public == null | bookInfo.public == "") {
+            book_input.public = "暂无此信息";
+        }
+        if (bookInfo.publicTime == null | bookInfo.publicTime == "") {
+            book_input.publicTime = "暂无此信息";
+        }
+        if (bookInfo.status == 0) {
+            book_input.status = "在架可借";
+        } else {
+            book_input.status = "借出";
+        }
         this.setData({ book: book_input });
         // console.log(this.data.book);
     },

@@ -1,13 +1,22 @@
 /* pages/book/bookinfo.wxss */
 /* pages/book/index.wxss */
 .book_info {
-  margin: auto;
+  margin: 100rpx auto;
   display: flex;
   text-align: left;
   align-items: center;
   justify-content: center;
-  margin-top: 100rpx;
+  padding: 10%;
+  clear: both;
+  background-color: #dbdbdb;
+  border-radius: 30rpx;
+  width: 60%;
+  height: auto;
 }
 .book_info text {
   user-select: auto;
+  font-size: 40rpx;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
 }

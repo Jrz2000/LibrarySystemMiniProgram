@@ -13,11 +13,11 @@
             &nbsp;
             出版社: {{book.public}}
             &nbsp;
-            出版日期 {{book.publicTime}}
+            出版日期: {{book.publicTime}}
             &nbsp;
-            价格: {{book.price}}
+            价格: {{book.price}}元
             &nbsp;
-            图书状态（1：借出，0：在架可借阅）: {{book.status}}
+            图书状态: {{book.status}}
         </text>
     </view>
 </view>

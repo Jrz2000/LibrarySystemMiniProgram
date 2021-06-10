@@ -1,9 +1,9 @@
 <!-- pages/login/index.wxml -->
 <view class="login-container">
     <view class="zcimage">
-        <image mode="widthFix" src="../../images/logo.jpg"></image>
+        <image mode="widthFix" src="../../images/logo2.png"></image>
     </view>
-    <view class="title">至诚图书馆</view>
+    <view class="title">登录</view>
     <view class="login-input">
         <input placeholder="学号/工号" bindinput="getId" />
     </view>
@@ -11,6 +11,6 @@
         <input placeholder="密码" bindinput="getPassword" type="password" />
     </view>
     <button class="login-btn" bind:tap="onTap">登录</button>
-    <view class="other">忘记密码？</view>
+    <!-- <view class="other">忘记密码？</view> -->
     <view class="other" bind:tap="guestTap">游客登录</view>
 </view>

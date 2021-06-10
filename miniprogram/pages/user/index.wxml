@@ -1,15 +1,15 @@
 <!-- pages/user/index.wxml -->
 <view class="container">
-    <image class='background' src="../../images/backgroundimg5.jpg" mode="widthFix|aspectFill|heightFix"></image>
+    <!-- <image class='background' src="../../images/backgroundimg5.jpg" mode="widthFix|aspectFill|heightFix"></image> -->
     <view class="info-box">
         <view class="userIcon">
-            <image src="../../images/usericon.png" mode="widthFix" />
+            <image src="../../images/logo2.png" mode="widthFix" />
         </view>
         <view class="userInfo">
             <text decode="{{true}}">{{userId}}</text>
         </view>
     </view>
-    <view class="history_like">
+    <!-- <view class="history_like">
         <view class="history">浏览历史</view>
         <view class="like">我的喜欢</view>
     </view>
@@ -26,7 +26,7 @@
             <image src="../../icons/setting.png" />
             <text>设置</text>
         </view>
-    </view>
+    </view> -->
     <view class="changeId">
         <button type="default" bindtap="changeId">切换账户</button>
     </view>
