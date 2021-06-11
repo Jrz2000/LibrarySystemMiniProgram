@@ -43,6 +43,13 @@ swiper image {
   display: block;
   font-size: 12px;
 }
+.notion {
+  font-size: 40rpx;
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #000000;
+}
 .menu:after {
   content: "";
   display: block;

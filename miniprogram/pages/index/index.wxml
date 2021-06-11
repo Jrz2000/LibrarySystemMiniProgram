@@ -2,8 +2,7 @@
 <view class="index">
     <!-- <image class='background' src="../../images/backgroundimg4.jpg" mode="aspectFill"></image> -->
     <searchInput></searchInput>
-    <swiper autoplay="{{true}}" circular="{{true}}" interval="2000" indicator-dots="{{true}}"
-        indicator-active-color="#1296db" indicator-color="#dbdbdb">
+    <swiper autoplay="{{true}}" circular="{{true}}" interval="2000" indicator-dots="{{true}}" indicator-active-color="#1296db" indicator-color="#dbdbdb">
         <swiper-item>
             <image src="../../images/lunbotu1.png" mode="widthFix|heightFix" />
         </swiper-item>
@@ -14,6 +13,12 @@
             <image src="../../images/lunbotu3.png" mode="widthFix|heightFix" />
         </swiper-item>
     </swiper>
+    <view class="notion">
+        <text class="information">
+            公告：欢迎使用至诚图书管理小程序，目前已开放图书检索功能，请通过搜索栏进行检索。
+            其他功能敬请期待O(∩_∩)O
+        </text>
+    </view>
     <!-- <view class="menu">
         <view class="menu-list" wx:for="{{menu.imgUrls}}" wx:key="*this">
             <image class="menu-img" src="{{item}}" />
